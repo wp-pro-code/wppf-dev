@@ -1,7 +1,7 @@
 {
     "name": "wpp/wppf-dev",
     "description": "Custom child theme for the Astra parent theme.",
-    "license": "sad",
+    "type": "wordpress-theme",
     "authors": [
         {
             "name": "Jason A. Kinney",
