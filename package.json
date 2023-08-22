@@ -1,0 +1,23 @@
+{
+  "name": "wppf-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tww": "npx tailwindcss -i ./assets/css/tailwind-input.css -o ./assets/css/tailwind-output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@material-tailwind/html": "^2.0.0",
+    "flowbite": "^1.8.1",
+    "rippleui": "^1.12.1",
+    "tailwindcss-fluid-type": "^2.0.3",
+    "tw-elements": "^1.0.0-beta3"
+  }
+}

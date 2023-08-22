@@ -1,0 +1,22 @@
+{
+    "name": "wpp/wppf-dev",
+    "description": "Custom child theme for the Astra parent theme.",
+    "license": "sad",
+    "authors": [
+        {
+            "name": "Jason A. Kinney",
+            "email": "jason@wp-pro.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPP\\WPPF\\": "includes/",
+            "WPP\\WPPF\\Helpers\\": "helpers/",
+            "WPP\\WPPF\\Models\\": "models/"
+        }
+    }
+}
